@@ -18,17 +18,17 @@
 
 .btn-flcomigo button {
     padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 22px;
+    font-weight: 700;
     color: white;
-    background-color: #66DBFB;
+    background-color: #0856e6;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
 }
 
 .btn-flcomigo button:hover {
-    box-shadow: 0px 0px 8px #08a7e6;
+    box-shadow: 0px 0px 8px #627bec;
     transform: scale(1.05);
     transition: .2s;
 }
@@ -58,7 +58,7 @@ header > .interface {
 
 header a {
     font-size: 20px;
-    color: #37c2e9;
+    color: #66729b;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
@@ -66,7 +66,7 @@ header a {
 
 header a:hover {
     color: #93daf7;
-    transform: scale(1.05);
+    transform: scale(1.08);
 }
 
 header nav ul {
@@ -78,7 +78,7 @@ header nav ul li {
     padding: 0 40px;
 }
 
-img {
+header img {
     width: 115px;
     height: 115px;
 }
@@ -86,7 +86,7 @@ img {
 /* ESTILO TOPO */
 
 section.topo {
-    padding: 40px 4%;
+    padding: 85px 4%;
 }
 
 section.topo .padrao {
@@ -129,7 +129,7 @@ section.topo .padrao {
 /* ESTILO ESPECIALIDADES */
 
 section.especialidades {
-    padding: 40px 4%;
+    padding: 85px 4%;
 }
 
 section.especialidades .padrao {
@@ -158,4 +158,32 @@ section.especialidades .padrao {
     font-size: 25px;
     margin: 20px 0;
     color: #0856e6;
+}
+
+/* ESTILO ME CONHEÇA */
+section.eu {
+    padding: 85px 4%;
+}
+
+.eu .padrao {
+    gap: 60px;
+}
+
+.eu .img-eu img {
+    width: 345px;
+    height: 520px;
+    border-radius: 15px;
+}
+
+.eu .txt-eu h2 {
+    color: #66DBFB;
+    font-size: 40px;
+    margin-top: 130px;
+    margin-bottom: 30px;
+    font-weight: 800;
+}
+
+.eu .txt-eu h2 span {
+    color: #0856e6;
+    display: block;
 }

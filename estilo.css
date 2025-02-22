@@ -7,6 +7,11 @@
     font-family: 'Inter', sans-serif;
 }
 
+body {
+    background-color: #eafdfd;
+    height: 100vh;
+}
+
 .interface {
     max-width: 1280px;
     margin: 0 auto;
@@ -58,14 +63,14 @@ header > .interface {
 
 header a {
     font-size: 20px;
-    color: #66729b;
+    color: #31b0e2;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
 }
 
 header a:hover {
-    color: #93daf7;
+    color: #66DBFB;
     transform: scale(1.08);
 }
 
